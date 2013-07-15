@@ -1,0 +1,16 @@
+
+
+
+
+	module.exports = {
+ 		  database: 		"dbName"
+ 		, hosts: [
+ 			{
+		          host:     "1dbHsot"
+		        , user:     "dbUser"
+		        , password: "dbPass"
+		        , weight: 	"optional int ( used for load balancing )"
+		        , writable: true
+		    }
+		]
+    };
