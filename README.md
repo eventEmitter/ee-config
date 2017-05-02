@@ -1,5 +1,7 @@
 # ee-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-config.svg)](https://greenkeeper.io/)
+
 gets & sets config values from a mysql db. depeds on a config file ( config.js in the project root )
 
    var config = require( "ee-config" );
